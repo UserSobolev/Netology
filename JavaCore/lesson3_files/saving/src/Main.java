@@ -26,7 +26,7 @@ public class Main {
 
         zipFiles("savegames//zip.zip", list);
 
-        deleteFiles("savegames", "zip.zip");
+        //deleteFiles("savegames", "zip.zip");
 
     }
 
