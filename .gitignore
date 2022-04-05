@@ -1,5 +1,9 @@
+.gradle/	
+.idea/
+build/
+target/
 *.class
-*.xml
+
 *.html
 *.iml
 .gitignore
