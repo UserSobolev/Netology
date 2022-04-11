@@ -67,40 +67,35 @@ public class Main {
         return gson.toJson(list, listType);
     }
     //Метод принимает на вход строку формата JSON и пишет ее в файл "data.json"
-    public static void writeString(String json, String namaFile) {
+    public static void writeString(String json, String nameFile) {
         try (FileWriter file = new
-                FileWriter(namaFile)) {
+                FileWriter(nameFile)) {
             file.write(json);
             file.flush();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-
+    //Метод принимает на вход файл XML и возвращает список объектов Employee
     public static List<Employee> parseXML(String fileName) {
         List<Employee> list = new ArrayList<>();
         try {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse(new File(fileName));
-            //Node roo = doc.getDocumentElement();
             NodeList nodeList = doc.getElementsByTagName("employee");
+
             for (int i = 0; i < nodeList.getLength(); i++) {
                 Node node = nodeList.item(i);
-                System.out.println(node.getChildNodes());
-                Element element = (Element) node;
-                System.out.println(element.getNodeName());
+                if (Node.ELEMENT_NODE == node.getNodeType()) {
+                    Element element = (Element) node;
+                    list.add(new Employee(Long.parseLong(element.getElementsByTagName("id").item(0).getTextContent()),
+                            element.getElementsByTagName("firstName").item(0).getTextContent(),
+                            element.getElementsByTagName("lastName").item(0).getTextContent(),
+                            element.getElementsByTagName("country").item(0).getTextContent(),
+                            Integer.parseInt(element.getElementsByTagName("age").item(0).getTextContent())));
+                }
             }
-//            for (int i = 0; i < nodeList.getLength(); i++) {
-//                Node node = nodeList.item(i);
-//                if (Node.ELEMENT_NODE == node.getNodeType()) {
-//                    Element element = (Element) node;
-//                    Employee temp = new Employee(element.getAttribute("id"), element.getAttribute("firstName"),
-//                            element.getAttribute("lastName"), element.getAttribute("country"),
-//                            element.getAttribute("age"));
-//                    list.add(temp);
-//                }
-//            }
         } catch (ParserConfigurationException | IOException | SAXException e) {
             e.printStackTrace();
         }
