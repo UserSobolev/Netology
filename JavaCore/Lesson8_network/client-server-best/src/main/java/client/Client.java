@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.util.Scanner;
 
 public class Client {
     private String host;
@@ -17,16 +18,19 @@ public class Client {
 
     protected void creatingClientConnection() {
         try  {
+            Scanner answer = new Scanner(System.in);
             Socket clientSocket = new Socket(host, port);
             PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
             BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-                 out.println("Anton\n Host: 127.0.0.1\n\n\n");
 
-                 String resp =  in.readLine();
-                 System.out.println(resp);
+            while(!clientSocket.isOutputShutdown()) {
+                String resp =  in.readLine();
+                System.out.println(resp);
+                out.println(answer.nextLine());
+            }
 
         } catch (IOException exception) {
-                 exception.printStackTrace();
+            exception.printStackTrace();
         }
     }
 
