@@ -35,7 +35,7 @@ public class Main {
 
         //cats.forEach(System.out::println);
         cats.stream()
-                .filter(value -> value.getUpvotes() != null)
+                .filter(value -> value.getUpvotes() != 0)
                 .forEach(System.out::println);
     }
 }

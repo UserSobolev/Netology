@@ -5,14 +5,14 @@ public class  Cat { //Класса для преобразования json в j
     private final String text;
     private final String type;
     private final String user;
-    private final String upvotes;
+    private final int upvotes;
 
     public Cat(
             @JsonProperty("id") String id,
             @JsonProperty("text") String text,
             @JsonProperty("type") String type,
             @JsonProperty("user") String user,
-            @JsonProperty("upvotes") String upvotes
+            @JsonProperty("upvotes") int upvotes
     ) {
         this.id = id;
         this.text = text;
@@ -37,7 +37,7 @@ public class  Cat { //Класса для преобразования json в j
         return user;
     }
 
-    public String getUpvotes() {
+    public int getUpvotes() {
         return  upvotes;
     }
 
