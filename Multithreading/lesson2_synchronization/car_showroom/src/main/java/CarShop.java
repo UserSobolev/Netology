@@ -19,8 +19,8 @@ public class CarShop {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        cars.remove(0);
         System.out.printf("Покупатель %s купил новое авто\n", Thread.currentThread().getName());
+        cars.remove(0);
     }
 
     public synchronized void notifyAboutNewCar() {

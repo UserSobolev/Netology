@@ -8,9 +8,10 @@ public class CarFactory {
             try {
                 Thread.sleep(PRODUCTION_TIME);
                 carShop.getCar().add(new Car());
-                carShop.notifyAboutNewCar();
-                tempQtyCars++;
                 System.out.printf("Производитель %s, выпустил новое авто\n", Thread.currentThread().getName());
+                tempQtyCars++;
+                carShop.notifyAboutNewCar();
+
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

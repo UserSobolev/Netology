@@ -44,7 +44,7 @@
 + Задание 1: 
 [Клиент-сервер приложение](https://github.com/UserSobolev/Netology/tree/main/JavaCore/Lesson8_network/client-server-application)  
 + Задание 2:
-[Клиент сервер с рюшками](https://github.com/UserSobolev/Netology/tree/main/JavaCore/Lesson8_network/client-server-best)   
+[Клиент-сервер с рюшками](https://github.com/UserSobolev/Netology/tree/main/JavaCore/Lesson8_network/client-server-best)   
 
 ### Тема 3.2 Протокол HTTP. Вызов удаленных серверов:  
 + Задание 1: 
