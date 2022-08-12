@@ -55,3 +55,55 @@
 ### Тема 4.1 JVM. Организация памяти, сборщики мусора, VisualVM:  
 + Задание 1: 
 [Понимание JVM](https://github.com/UserSobolev/Netology/tree/main/JavaCore/lesson10_jvm/jvm)  
+
+## Блок 2. Многопоточное и функциональное программирование.  
+  
+### Тема 1.1 Многопоточное программирование: 
++ Задание 1: 
+[Межпоточный диалог](https://github.com/UserSobolev/Netology/tree/main/Multithreading/lesson1_intermediate/intermediate_dialogue)  
++ Задание 2:
+[Межпоточный диалог со счетчиком](https://github.com/UserSobolev/Netology/tree/main/Multithreading/lesson1_intermediate/intermediate_dialogue_counter)  
++ Задание 3:
+[Калькулятор массива](https://github.com/UserSobolev/Netology/tree/main/Multithreading/lesson1_intermediate/array_calculator) 
+ 
+
+### Тема 1.2 Работа с синхронизацией. Synchronization, wait, notify, sleep, lock:  
++ Задание 1: 
+[Автосалон](https://github.com/UserSobolev/Netology/tree/main/Multithreading/lesson2_synchronization/car_showroom)  
++ Задание 2:
+[Продвинутый автосалон](https://github.com/UserSobolev/Netology/tree/main/Multithreading/lesson2_synchronization/car_showroom_lock) 
+
+### Тема 1.2 Volatile, threadlocal atomics:  
++ Задание 1: 
+[Самая бесполезная коробка](https://github.com/UserSobolev/Netology/tree/main/Multithreading/lesson3_atomics_volatile/valatile)  
++ Задание 2:
+[Отчет для налоговой](https://github.com/UserSobolev/Netology/tree/main/Multithreading/lesson3_atomics_volatile/untitled) 
+    
+### Тема 1.4 Коллекции для параллельной (конкурирующей) работы:  
++ Задание 1: 
+[Колл-центр]()  
++ Задание 2:
+[Разница в производительности]() 
+     
+### Тема 1.5 Клиент-серверное взаимодействие. Blocking и Non-Blocking IO:  
++ Задание 1: 
+[Тяжелые вычисления]()  
++ Задание 2:
+[Уничтожитель пробелов]()  
+   
+### Тема 2.1 Функциональное программирование:  
++ Задание 1: 
+[Генерато словаря]()  
++ Задание 2:
+[Кадастровый помощьник]() 
+  
+### Тема 2.1 Методология разработки. TDD, DDD:  
++ Задание 1: 
+[Разработка через тестирование]()  
++ Задание 2:
+[Разработка с помощью DDD]()   
+  
+
+
+
+  
