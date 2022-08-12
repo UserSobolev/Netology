@@ -56,7 +56,25 @@
 + Задание 1: 
 [Понимание JVM](https://github.com/UserSobolev/Netology/tree/main/JavaCore/lesson10_jvm/jvm)  
 
-## Блок 2. Многопоточное и функциональное программирование.  
+## Блок 2. Шаблоны проектирования.  
+
+### Тема 1.1 Порождающие шаблоны. Builder, Singleton:  
++ Задание 1: 
+[Люди](https://github.com/UserSobolev/Netology/tree/main/DesignPatterns/creational/builder)  
++ Задание 2:
+[Логгер](https://github.com/UserSobolev/Netology/tree/main/DesignPatterns/creational/logger)  
+
+### Тема 1.2 Структурные шаблоны. Proxy, Decorator, Adapter:  
++ Задание 1: 
+[Калькулятор](https://github.com/UserSobolev/Netology/tree/main/DesignPatterns/structural/adapter_calculator)  
++ Задание 2:
+[Двоичный фасад](https://github.com/UserSobolev/Netology/tree/main/DesignPatterns/structural/double_facade)  
+
+### Тема 1.3 Поведенческие шаблоны. Iterator:  
++ Задание 1: 
+[Бесконечная итерация](https://github.com/UserSobolev/Netology/tree/main/DesignPatterns/behave/iterator)  
+ 
+## Блок 3. Многопоточное и функциональное программирование.  
   
 ### Тема 1.1 Многопоточное программирование: 
 + Задание 1: 
