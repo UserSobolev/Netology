@@ -99,9 +99,7 @@
     
 ### Тема 1.4 Коллекции для параллельной (конкурирующей) работы:  
 + Задание 1: 
-[Колл-центр]()  
-+ Задание 2:
-[Разница в производительности]() 
+[Колл-центр](https://github.com/UserSobolev/Netology/tree/main/Multithreading/lesson4_concurrent_collections/call_centre)  
      
 ### Тема 1.5 Клиент-серверное взаимодействие. Blocking и Non-Blocking IO:  
 + Задание 1: 
