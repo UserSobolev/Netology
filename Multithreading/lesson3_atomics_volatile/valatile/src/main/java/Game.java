@@ -1,7 +1,7 @@
 public class Game {
     private volatile boolean switcher;
 
-    public void turnOFF() {
+    public void turnOff() {
         while (!Thread.currentThread().isInterrupted()) {
             if (switcher) {
                 System.out.printf("%s выключает тумблер.\n", Thread.currentThread().getName());
@@ -10,7 +10,7 @@ public class Game {
         }
     }
 
-    public void turnON() {
+    public void turnOn() {
         switcher = true;
     }
 

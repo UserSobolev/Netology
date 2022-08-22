@@ -4,7 +4,7 @@ public class Main {
         Player player = new Player(game);
 
         Thread threadPlayer = new Thread(null, player::turnOn, "Игрок Иван");
-        Thread threadGame = new Thread(null, game::turnOFF, "Бесполезная коробка");
+        Thread threadGame = new Thread(null, game::turnOff, "Бесполезная коробка");
 
         threadPlayer.start();
         threadGame.start();

@@ -13,7 +13,7 @@ public class Player {
                 Thread.sleep(SLEEP);
                 if (!game.getSwitchStatus()) {
                     System.out.printf("%s включаю тумблер.\n", Thread.currentThread().getName());
-                    game.turnON();
+                    game.turnOn();
                 }
             } catch (InterruptedException e) {
                 e.fillInStackTrace();
