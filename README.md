@@ -103,9 +103,9 @@
      
 ### Тема 1.5 Клиент-серверное взаимодействие. Blocking и Non-Blocking IO:  
 + Задание 1: 
-[Тяжелые вычисления]()  
+[Тяжелые вычисления](https://github.com/UserSobolev/Netology/tree/main/Multithreading/lesson5_clientserve/high_density/IO)  
 + Задание 2:
-[Уничтожитель пробелов]()  
+[Уничтожитель пробелов](https://github.com/UserSobolev/Netology/tree/main/Multithreading/lesson5_clientserve/removing_spaces/NIO)  
    
 ### Тема 2.1 Функциональное программирование:  
 + Задание 1: 
