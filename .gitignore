@@ -7,7 +7,6 @@ target/
 
 #Не мое
 
-*.html
 *.iml
 
 # Compiled class file
