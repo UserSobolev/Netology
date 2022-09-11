@@ -41,7 +41,7 @@ public class Main {
         //Записываем строку JSON в файл JSON
         writeString(json2, "data2.json");
     }
-    //Метод принимает на вход массив с преднозначением колонок в файле CSV + сам файл CSV,
+    //Метод принимает на вход массив с преднозначениемколонок в файле CSV + сам файл CSV,
     //парсит файл и создает список объектов Employee
     public static List<Employee> parseCSV(String[] columnMapping, String fileName) {
         List<Employee> list = null;
