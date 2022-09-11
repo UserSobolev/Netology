@@ -5,9 +5,8 @@ target/
 *.class
 .gitignore
 
-#Не мое
+# not mine
 
-*.html
 *.iml
 
 # Compiled class file
