@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class CarShop {
 
-    private ReentrantLock lock = new ReentrantLock(true);
+    private final ReentrantLock lock = new ReentrantLock(true);
     public Condition conditionCar = lock.newCondition();
     public List<Car> cars = new ArrayList<>();
 
@@ -15,8 +15,8 @@ public class CarShop {
     }
 
     public void sellCar() {
-        lock.lock();
         try {
+            lock.lock();
             while (cars.size() == 0) {
                 System.out.printf("Нет авто, покупатель %s не может купить авто," +
                         "ожидает поступления\n", Thread.currentThread().getName());
@@ -32,8 +32,8 @@ public class CarShop {
     }
 
     public void notifyAboutNewCar() {
-        lock.lock();
         try {
+            lock.lock();
             conditionCar.signalAll();
         } finally {
             lock.unlock();
