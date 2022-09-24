@@ -9,18 +9,18 @@ import java.util.concurrent.ConcurrentHashMap;
 // Stub
 public class PostRepository {
     private ConcurrentHashMap<Long, Post> posts = new ConcurrentHashMap<>();
-    private long counterPosts = 1;
+    private volatile long counterPosts = 1;
 
     public List<Post> all() {
         return new ArrayList<>(posts.values());
     }
 
     public Optional<Post> getById(long id) {
-//        return Optional.ofNullable(posts.get(id));
-        return posts.entrySet().stream()
-                .filter(e -> e.getKey() == id)
-                .map(Map.Entry::getValue)
-                .findFirst();
+        return Optional.ofNullable(posts.get(id));
+//        return posts.entrySet().stream()
+//                .filter(e -> e.getKey() == id)
+//                .map(Map.Entry::getValue)
+//                .findFirst();
     }
 
     public Post save(Post post) {
