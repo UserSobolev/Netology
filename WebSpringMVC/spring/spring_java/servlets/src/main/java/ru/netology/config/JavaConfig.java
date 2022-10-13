@@ -7,20 +7,23 @@ import ru.netology.repository.PostRepository;
 import ru.netology.service.PostService;
 
 @Configuration
-public class JavaConfig {
+public class  JavaConfig {
 
     @Bean
     public PostController postController(PostService service) {
+
         return new PostController(service);
     }
 
     @Bean
     public PostService postService(PostRepository repository) {
+
         return new PostService(repository);
     }
 
     @Bean
     public PostRepository postRepository() {
+
         return new PostRepository();
     }
 }
