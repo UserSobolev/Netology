@@ -106,18 +106,43 @@
 [Тяжелые вычисления](https://github.com/UserSobolev/Netology/tree/main/Multithreading/lesson5_clientserve/high_density/IO)  
 + Задание 2:
 [Уничтожитель пробелов](https://github.com/UserSobolev/Netology/tree/main/Multithreading/lesson5_clientserve/removing_spaces/NIO)  
-   
-### Тема 2.1 Функциональное программирование:  
-+ Задание 1: 
-[Генерато словаря]()  
-+ Задание 2:
-[Кадастровый помощьник]() 
+
+## Блок 4. WEB, Spring&Spring MVC.  
   
-### Тема 2.1 Методология разработки. TDD, DDD:  
+### Тема 1.1 HTTP и современный WEB: 
 + Задание 1: 
-[Разработка через тестирование]()  
+[Response&Request на низком уровне](https://github.com/UserSobolev/Netology/tree/main/WebSpringMVC/01_web/http-server) 
+
+### Тема 2.1 Java EE, Java Servlets: 
++ Задание 1: 
+[CRUD на servlet's](https://github.com/UserSobolev/Netology/tree/main/WebSpringMVC/serlvets/servlets)  
+
+### Тема 2.2 Dependency Lookup, Dependency Injection, IoC, Spring, Application Context: 
++ Задание 1: 
+[DI_annotation](https://github.com/UserSobolev/Netology/tree/main/WebSpringMVC/spring/spring_annotation)  
 + Задание 2:
-[Разработка с помощью DDD]()   
+[DI_java](https://github.com/UserSobolev/Netology/tree/main/WebSpringMVC/spring/spring_java/servlets)  
+
+### Тема 2.3 Spring Web MVC: 
++ Задание 1: 
+[CRUD на Spring MVC](https://github.com/UserSobolev/Netology/tree/main/WebSpringMVC/rest)  
+
+## Блок 5. Spring Boot, deployment и инфраструктура.  
+  
+### Тема 1.1 Spring Boot: назначение, внутреннее устройство: 
++ Задание 1: 
+[Conditional приложение](https://github.com/UserSobolev/Netology/tree/main/Spring%20Boot/springBootConditional/src) 
+
+### Тема 1.2 REST: 
++ Задание 1: 
+[REST APP](https://github.com/UserSobolev/Netology/tree/main/Spring%20Boot/restAPI) 
+
+ 
+ 
+   
+
+  
+
   
 
 

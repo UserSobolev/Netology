@@ -5,7 +5,6 @@ import javax.validation.constraints.Size;
 import java.util.Objects;
 
 public class User {
-
     @Size(min = 4, max = 20)
     private final String password;
 

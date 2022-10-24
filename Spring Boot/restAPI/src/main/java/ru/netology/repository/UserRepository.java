@@ -11,7 +11,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 @Repository
 public class UserRepository {
-
     private final ConcurrentHashMap<User, List<Authorities>> authorities;
 
     public UserRepository() {
