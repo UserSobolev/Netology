@@ -2,9 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CarShop {
-
     public List<Car> cars = new ArrayList<>();
-
     public List<Car> getCar() {
         return cars;
     }

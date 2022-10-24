@@ -3,6 +3,8 @@ package ru.netology.repository;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.server.ResponseStatusException;
+
 import ru.netology.exception.NotFoundException;
 import ru.netology.model.Post;
 

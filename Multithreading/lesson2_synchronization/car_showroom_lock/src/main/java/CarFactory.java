@@ -3,7 +3,6 @@ import java.util.concurrent.locks.ReentrantLock;
 public class CarFactory {
     private static final long PRODUCTION_TIME = 10000;
     private static final int MAX_CAPACITY = 3;
-
     private final ReentrantLock lockAddCars = new ReentrantLock(true);
 
     public void produceCar(CarShop carShop) {

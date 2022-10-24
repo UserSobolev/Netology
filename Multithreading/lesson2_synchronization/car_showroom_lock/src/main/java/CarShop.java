@@ -4,11 +4,9 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class CarShop {
-
     private final ReentrantLock lock = new ReentrantLock(true);
     public Condition conditionCar = lock.newCondition();
     public List<Car> cars = new ArrayList<>();
-
 
     public List<Car> getCar() {
         return cars;
