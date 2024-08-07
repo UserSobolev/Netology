@@ -134,7 +134,7 @@
 [Conditional приложение](https://github.com/UserSobolev/Netology/tree/main/Spring%20Boot/springBootConditional/src) 
 
 ### Тема 1.2 REST: 
-+ Задание 1: 
++ Задание 1qwe: 
 [REST APP](https://github.com/UserSobolev/Netology/tree/main/Spring%20Boot/restAPI) 
 
  
